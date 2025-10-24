@@ -25,16 +25,17 @@ Pb: Pβ λ 12822
 ## File Structure:
 ```
 emission_line_fits/
-├── constants.py # Physical constants, line wavelengths, labels and plotting info
-├── data_handling.py # Read and preprocess spectra, interpolate LSF
-├── model.py # Gaussian line models for fitting
-├── mcmc.py # MCMC routines for fit parameter estimation
-├── plots.py # Functions to plot spectra, fits, and corner plots
-├── main.py # Main script for batch fitting using multiprocessing
-├── png/ # Output folder for plots
-├── png_broad/ # Output folder for plots of AGN and gas-flow contaminants
-├── table_fitresults/ # Output CSV tables of fit results
-└── README.md # Project documentation
+├── constants.py        # Physical constants, line wavelengths, labels and plotting info
+├── data_handling.py    # Read and preprocess spectra, interpolate LSF
+├── model.py            # Gaussian line models for fitting
+├── mcmc.py             # MCMC routines for fit parameter estimation
+├── plots.py            # Functions to plot spectra, fits, and corner plots
+├── main.py             # Main script for batch fitting using multiprocessing
+├── png/                # Output folder for plots
+├── png_broad/          # Output folder for plots of AGN and gas-flow contaminants
+├── table_fitresults/   # Output CSV tables of fit results
+├── LICENSE             # License for project usage
+└── README.md           # Project documentation
 ```
 
 ---  
